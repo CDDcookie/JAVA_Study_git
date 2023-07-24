@@ -1,6 +1,7 @@
 package ch6;
 
-public class TvTest4 {
+public class
+TvTest4 {
 
   /*
    * String 객체 배열, 기본형의 배열을 사용해왔음.
