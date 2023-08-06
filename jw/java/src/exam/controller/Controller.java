@@ -23,12 +23,12 @@ public class Controller {
   // 초기화 및 샘플 데이터 등록 기능
   public int initController(int arrLength, boolean sampleDataInsert) {
 
-    // 생성할 배열의 길이 0이면 Controller.ERR_ARRAY_LENGTH 에러를 반환.
+    // 생성할 배열의 길이 0이면 Controller.java.ERR_ARRAY_LENGTH 에러를 반환.
     if (arrLength < 1) {
       return Controller.ERR_ARRAY_LENGTH;
     }
 
-    // 생성할 배열의 길이가 5보다 같거나 작으면 기본 배열 길이를 Controller.DEFAULT_ARRAY_LENGTH 설정.
+    // 생성할 배열의 길이가 5보다 같거나 작으면 기본 배열 길이를 Controller.java.DEFAULT_ARRAY_LENGTH 설정.
     if (arrLength <= 5) {
       arrLength = Controller.DEFAULT_ARRAY_LENGTH;
     }

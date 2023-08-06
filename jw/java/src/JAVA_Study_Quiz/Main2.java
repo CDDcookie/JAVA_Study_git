@@ -1,17 +1,21 @@
-package JAVA_Study_Quiz;
-
-public class Main2 {
-
-  public static void main(String[] args) {
-    int HeightCut = 120;
-    int A = 119;
-    int B = 130;
-
-    String result1 = (HeightCut > A) ? "탑승가능" : "탑승불가능";
-    System.out.println(A + "이므로" + result1);
-
-    String result2 = (HeightCut > B) ? "탑승가능" : "탑승불가능";
-    System.out.println(B + "이므로" + result2);
-
-  }
-}
+//import java.util.Scanner;
+//
+//public class Main {
+//
+//  public static void main(String[] args) {
+//    Scanner sc = new Scanner(System.in);
+//    String c = sc.nextLine();
+//    int n = sc.nextInt();
+//
+//    if (c == "A") {
+//      for (int i = 1; i <= n; i++) {
+//        System.out.println(i);
+//      }
+//      if (c == "D") {
+//        for (int i = n; n <= i; i--) {
+//          System.out.println(i);
+//        }
+//      }
+//    }
+//  }
+//}

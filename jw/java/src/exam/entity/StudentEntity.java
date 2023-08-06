@@ -22,12 +22,12 @@ public class StudentEntity {
   // 현재 DB의 가용 공간 상태
   boolean stuArrStatus = false;
 
-  // Controller 에서 접근하기 위한 메소드//??????????????????
+  // Controller.java 에서 접근하기 위한 메소드//??????????????????
   public Student[] getStuArr() {
     return stuArr;
   }
 
-  // Controller 에서 배열에 실제 저장된 위치 정보에 접근하기 위한 메소드
+  // Controller.java 에서 배열에 실제 저장된 위치 정보에 접근하기 위한 메소드
   public int getNextArrIdx() {
     return nextArrIdx;
   }
